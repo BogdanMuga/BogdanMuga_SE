@@ -31,8 +31,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Data\Migrations\20210405195443_UserExtended.cs" />
-    <Compile Remove="Data\Migrations\20210405195443_UserExtended.Designer.cs" />
+    <Compile Remove="Migrations\20210406202054_InitialMigration.cs" />
+    <Compile Remove="Migrations\20210406202054_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20210406202606_InitialMigration.cs" />
+    <Compile Remove="Migrations\20210406202606_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20210406202744_InitialMigration.cs" />
+    <Compile Remove="Migrations\20210406202744_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20210406202848_InitialMigration.cs" />
+    <Compile Remove="Migrations\20210406202848_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20210406203314_InitialMigration.cs" />
+    <Compile Remove="Migrations\20210406203314_InitialMigration.Designer.cs" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

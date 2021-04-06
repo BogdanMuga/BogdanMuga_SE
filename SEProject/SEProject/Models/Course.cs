@@ -14,7 +14,7 @@ namespace SEProject.Models
         [Required]
         public ApplicationUser Teacher { get; set; }
 
-        public IEnumerable<StudentCourse> StudentsEnrolled { get; set; }
+        public ICollection<StudentCourse> StudentsEnrolled { get; set; }
 
     }
 }
