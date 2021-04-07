@@ -6237,23 +6237,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\milcu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Tron\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LocalWeb\\SEProject\\SEProject\\SEProject.csproj",
+      "projectUniqueName": "C:\\Users\\Tron\\Documents\\webapp\\SEProject\\SEProject\\SEProject.csproj",
       "projectName": "SEProject",
-      "projectPath": "D:\\LocalWeb\\SEProject\\SEProject\\SEProject.csproj",
-      "packagesPath": "C:\\Users\\milcu\\.nuget\\packages\\",
-      "outputPath": "D:\\LocalWeb\\SEProject\\SEProject\\obj\\",
+      "projectPath": "C:\\Users\\Tron\\Documents\\webapp\\SEProject\\SEProject\\SEProject.csproj",
+      "packagesPath": "C:\\Users\\Tron\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tron\\Documents\\webapp\\SEProject\\SEProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\milcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6265,6 +6261,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6276,6 +6273,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
             "target": "Package",
@@ -6328,7 +6326,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
